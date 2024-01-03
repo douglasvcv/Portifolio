@@ -42,6 +42,7 @@
     height: 0px;
     color: black;
     font-size: 1.3rem;
+    
   }
   header .navegacao-primaria li a::after{
     content: '';
@@ -292,14 +293,17 @@
       right: 20px;
       animation: ladoSecao .5s ease-in-out forwards;
     }
+   
   }
   @media(max-width: 992px) {
     .sobre img {
-    visibility: hidden;
+      visibility: hidden;
+      
       
     }
-   
-    
+   .section-div img{
+    visibility: hidden ;
+   }
     .sobre_conteudo{
       grid-column: 1/-1;
     }
