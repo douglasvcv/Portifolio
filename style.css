@@ -427,7 +427,7 @@
     margin-bottom: 40px;
     max-width: 90vw;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
     background-color: rgb(214, 204, 204);
     
   }
@@ -452,4 +452,49 @@
   .education_content div{
     margin-left: 30px;
     margin-top: 30px;
+  }
+  .my_projects{
+    background: #ecede1;
+    text-align: center;
+  }
+  .my_projects h{
+
+  }
+  .my_projects div{
+    background: rgb(214, 204, 204);
+    text-align: center;
+    width: 90vw;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: max-content;
+  }
+  .my_projects div ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+  }
+
+  .my_projects div ul li{
+    margin-left:135px ;
+    margin-top: 50px;
+    height: 33vh;
+    width: 25vw;
+    border: 1px solid red;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 40px;
+    background-color: #ecede1;
+  }
+  .my_projects img{
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+
+  .my_projects div ul li:hover{
+    height: 34vh;
+    width: 26vw;
+    margin-left: 120px;
+    margin-top: 40px;
+    background-color: rgb(152, 132, 132);
   }
