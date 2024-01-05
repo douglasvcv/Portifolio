@@ -81,18 +81,21 @@
   }
   .section-div div li{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    margin: 0 270px;
     margin-bottom: 30px;
   }
   .section-div div li ul a{
-    color: black;
+    color: #0a66c2;
     font-size: 30px;
     border-radius: 50%;
     transition: 0.4s ease-in-out;
   }
+  #github{
+    color: black;
+  }
   .section-div div li ul a:hover{
-    background: rgb(111, 13, 13);
+    background: rgb(155, 152, 152);
     padding: 10px;
     margin: -10px;
   }
