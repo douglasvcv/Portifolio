@@ -400,9 +400,7 @@
     background: #ecede1;
     text-align: center;
   }
-  .my_projects h{
-
-  }
+ 
   .my_projects div{
     background: rgb(214, 204, 204);
     text-align: center;
@@ -520,4 +518,49 @@
       
     }
    
+  }
+  @media(max-width: 500px){
+   
+    
+    header h1{
+      font-size: larger;
+    }
+    header nav i{
+      font-size: 200%;
+
+    }
+    .section-div{
+      background: #ecede1;
+
+    }
+    .section-div div{
+      align-items: center;
+      font-size: small;
+     width: 81vw;
+    }
+    .section-div div li {
+      margin-left: 20px;
+      margin: 0 100px;
+    }
+    .section-div div li ul{
+      margin-left: 30px;
+    }
+    .sobre_info{
+      align-items: baseline;
+      margin-left: -26px;
+    }
+    .resume_generica{
+     
+      margin-left: 10px;
+    }
+    .my_projects div ul li{
+      margin-left: 30px;
+      width: 220px;
+    }
+    .my_projects img{
+      width: 200px;
+    }
+    .my_projects div{
+      margin-left: 10px;
+    }
   }
