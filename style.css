@@ -563,10 +563,11 @@
       width: 220px;
     }
     .my_projects img{
-      width: 200px;
+      width: 180px;
     }
     .my_projects div{
-      margin-left: 10px;
+      margin: auto;
+      text-align: center;
     }
     .my_projects div ul{
       display: flex;
