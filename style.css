@@ -372,7 +372,11 @@
     border-radius: 10px;
     margin-left: 50px;
     background-color: rgb(214, 204, 204);
-    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .resume_generica h2{
     margin-left: 10px;
@@ -389,7 +393,7 @@
     margin-bottom: 10px;
   }
   .experience_content{
-    padding: 30px;
+    padding: 40px;
     
   }
   .education_content div{
@@ -399,28 +403,33 @@
   .my_projects{
     background: #ecede1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
  
   .my_projects div{
-    background: rgb(214, 204, 204);
-    text-align: center;
-    width: 90vw;
+    display: flex;
+    width: 100vw;
     margin-left: 50px;
     border-radius: 10px;
     height: max-content;
+    
   }
   .my_projects div ul{
     display: grid;
     grid-template-columns: auto auto ;
-    
+    justify-content: center;
+    align-items: center;
     
   }
 
   .my_projects div ul li{
     margin-left:135px ;
     margin-top: 50px;
-    height: 33vh;
-    width: 25vw;
+    height: 43vh;
+    width: 35vw;
     border: 1px solid red;
     border-radius: 20px;
     transition: 0.5s ease-in-out;
@@ -431,15 +440,11 @@
     margin-top: 20px;
     border-radius: 4px;
   }
-
-  .my_projects div ul li:hover{
-    height: 34vh;
-    width: 26vw;
-    margin-left: 120px;
-    margin-top: 40px;
-    background-color: rgb(152, 132, 132);
-    color: white;
+  .my_projects li:hover{
+    background-color: rgb(177, 165, 165) ;
+    transition: 0.4s ease;
   }
+
 
   /*Responsividade*/
   @media(max-width: 992px){
@@ -503,20 +508,13 @@
 
     }
     .my_projects div ul li{
-      width: 45vw;
+      width: 55vw;
       height: max-content;
      justify-content: center;
+      align-items: center;
     }
     
-    .my_projects div ul li:hover{
-      height: max-content;
-      width: 46vw;
-      margin-left: 110px;
-      margin-top: 40px;
-      background-color: rgb(152, 132, 132);
-      color: white;
-      
-    }
+    
    
   }
   @media(max-width: 500px){
@@ -549,8 +547,16 @@
       margin-left: -26px;
     }
     .resume_generica{
-     
-      margin-left: 10px;
+     margin: auto;
+      text-align: center ;
+    }
+    .my_projects div ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
     }
     .my_projects div ul li{
       margin-left: 30px;
@@ -561,5 +567,8 @@
     }
     .my_projects div{
       margin-left: 10px;
+    }
+    .my_projects div ul{
+      display: flex;
     }
   }
